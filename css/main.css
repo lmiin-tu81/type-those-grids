@@ -9,114 +9,25 @@ html {
 }
 
 body {
-  margin: 0;
   padding: 0;
 }
 
-.banner {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 1fr 1fr 1fr 1fr;
-}
-
-.main1 {
+img {
   width: 100%;
-  grid-column: 1 / 4;
-  grid-row: 1 / 5;
-}
-
-.para {
-  color: #fff;
-  grid-column: 1 / 4;
-  grid-row: 4;
-  margin-left: 1rem;
 }
 
 h2 {
   font-style: italic;
   font-weight: normal;
-  padding: 0;
-  margin: 0;
-}
-
-div p {
-  margin-top: 0;
-  font-weight: normal;
-  margin-bottom: 1rem;
 }
 
 h1 {
   font-style: italic;
   font-size: 1.8rem;
   font-weight: normal;
-  margin: 1.5rem 1rem;
 }
 
-figcaption {
-  margin-left: 1rem;
-  font-size: 1.5rem;
-  font-style: italic;
-  margin-top: 1rem;
-}
-
-dl dt {
-  font-style: italic;
-}
-
-dl dd {
-  margin-left: 1rem;
-}
-
-dl {
-  margin-top: 0;
-  align-self: center;
-  margin-left: 1rem;
-}
-
-img {
-  width: 100%;
-  margin-bottom: 0;
-}
-
-.mainbody {
+main {
   display: grid;
-  grid-template-areas:
-    "temple colossus gardens"
-    "dl1 dl2 dl3";
-  column-gap: .75rem;
-}
 
-.temple {
-  grid-area: temple;
-}
-
-.colossus {
-  grid-area: colossus;
-}
-
-.gardens {
-  grid-area: gardens;
-}
-
-.dl1 {
-  grid-area: dl1;
-}
-
-.dl2 {
-  grid-area: dl2;
-}
-
-.dl3 {
-  grid-area: dl3;
-}
-
-figure {
-  margin-top: .75rem;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-}
-
-.third {
-  height: 293.93px;
 }
