@@ -47,10 +47,10 @@ main {
   grid-area: banner;
   align-self: end;
   color: #fff;
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
 }
 
-.banner-text h2{
+.banner-text h2 {
   margin-bottom: 0;
 }
 
